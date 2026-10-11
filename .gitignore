@@ -22,3 +22,12 @@ wheels/
 venv/
 ENV/
 private_cudnn8/
+
+# Secretos: nunca al repositorio
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*
